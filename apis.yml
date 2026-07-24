@@ -1,8 +1,28 @@
 aid: boom-supersonic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boom-supersonic.png
 name: Boom Supersonic
-description: 'Boom Supersonic is a company surfaced as a portfolio company of bessemer-venture-partners,
-  electric-capital, homebrew and added to the API Evangelist network as a stub for enrichment. Sector:
-  deep-tech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Boom Supersonic is a Denver-based aerospace company building supersonic
+  commercial aircraft to make the world dramatically more accessible. Its flagship
+  airliner, Overture, is designed to carry passengers at twice the speed of today''s
+  jets and has orders and pre-orders from United Airlines, American Airlines, and
+  Japan Airlines. The company develops the Symphony medium-bypass turbofan engine
+  purpose-built for supersonic flight, flew the XB-1 demonstrator past Mach 1, and
+  is applying its propulsion technology to Superpower gas turbines for data-center
+  energy. Boom is a deep-tech, hardware-first manufacturer and does not currently
+  publish a public developer API surface; this profile tracks its identity and
+  security posture in the API Evangelist network. Backed by Bessemer Venture Partners,
+  Electric Capital, and Homebrew.'
 url: https://raw.githubusercontent.com/api-evangelist/boom-supersonic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Deep Tech
+- Aerospace
+- Aviation
+- Supersonic
+- Manufacturing
+- Propulsion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/boom-supersonic-domain-security.yml
 - type: Website
   url: https://boomsupersonic.com/
+- type: Blog
+  url: https://boomsupersonic.com/flyby
+- type: Support
+  url: https://boomsupersonic.com/faq
+- type: TermsOfService
+  url: https://boomsupersonic.com/terms
+- type: PrivacyPolicy
+  url: https://boomsupersonic.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
