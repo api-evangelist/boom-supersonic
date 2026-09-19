@@ -23,17 +23,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boom-supersonic.png
 name: Boom Supersonic
-description: 'Boom Supersonic is a Denver-based aerospace company building supersonic
-  commercial aircraft to make the world dramatically more accessible. Its flagship
-  airliner, Overture, is designed to carry passengers at twice the speed of today''s
-  jets and has orders and pre-orders from United Airlines, American Airlines, and
-  Japan Airlines. The company develops the Symphony medium-bypass turbofan engine
-  purpose-built for supersonic flight, flew the XB-1 demonstrator past Mach 1, and
-  is applying its propulsion technology to Superpower gas turbines for data-center
-  energy. Boom is a deep-tech, hardware-first manufacturer and does not currently
-  publish a public developer API surface; this profile tracks its identity and
-  security posture in the API Evangelist network. Backed by Bessemer Venture Partners,
-  Electric Capital, and Homebrew.'
+description: Boom Supersonic is a Denver-based aerospace company building supersonic commercial aircraft to make
+  the world dramatically more accessible. Its flagship airliner, Overture, is designed to carry passengers at twice
+  the speed of today's jets and has orders and pre-orders from United Airlines, American Airlines, and Japan Airlines.
+  The company develops the Symphony medium-bypass turbofan engine purpose-built for supersonic flight, flew the
+  XB-1 demonstrator past Mach 1, and is applying its propulsion technology to Superpower gas turbines for data-center
+  energy. Boom is a deep-tech, hardware-first manufacturer and does not currently publish a public developer API
+  surface; this profile tracks its identity and security posture in the API Evangelist network. Backed by Bessemer
+  Venture Partners, Electric Capital, and Homebrew.
 url: https://raw.githubusercontent.com/api-evangelist/boom-supersonic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -73,6 +70,8 @@ common:
   url: https://boomsupersonic.com/terms
 - type: PrivacyPolicy
   url: https://boomsupersonic.com/privacy
+- type: Blog
+  url: https://boomsupersonic.com/news
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
